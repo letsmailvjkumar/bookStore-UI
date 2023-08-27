@@ -18,7 +18,7 @@ const NavBar = ({setImages}) => {
     const display = ()=>{
         axios.get("https://www.googleapis.com/books/v1/volumes", {
             params:{
-                q: searchTerm || "harry",
+                q: searchTerm || "coding",
                 maxResults: 35
             }
         })

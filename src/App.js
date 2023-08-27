@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar';
 import ImageGallery from './Components/ImageGallery';
 import BestSeller from './Components/BestSeller';
 
+
 function App() {
 
   const [images,setImages] = useState([]);
